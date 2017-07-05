@@ -1,4 +1,4 @@
-# Rounders::Rails
+# Rounders::Rails [![Gem Version](https://badge.fury.io/rb/rounders-rails.svg)](https://badge.fury.io/rb/rounders-rails) 
 Short description and motivation.
 
 ## Usage
@@ -11,14 +11,18 @@ Add this line to your application's Gemfile:
 gem 'rounders-rails'
 ```
 
-And then execute:
-```bash
-$ bundle
-```
+## Usage
 
-Or install it yourself as:
-```bash
-$ gem install rounders-rails
+create your rounders config in config/initializers/rounders_mail.rb
+
+
+### RakeTasks
+
+```
+rake rounders:restart                   # Restart the Rounders service
+rake rounders:start                     # Start the Rounders service
+rake rounders:status                    # Check the status of the Rounders service
+rake rounders:stop                      # Stop the Rounders service
 ```
 
 ## Contributing
