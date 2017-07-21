@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '>= 4.2.8'
-  s.add_dependency 'rounders', '~> 0.5.0'
+  s.add_dependency 'rounders', '>= 0.7.0'
   s.add_dependency 'daemons'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'coveralls'
