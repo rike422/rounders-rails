@@ -22,6 +22,6 @@ namespace :rounders do
 end
 
 task rounders: :environment do
-  Rounders::Application.config.logger = Logger.new("#{Rails.root}/log/mailman.#{Rails.env}.log")
+  Rounders::Application.config.logger = Logger.new("#{Rails.root}/log/rounders.#{Rails.env}.log")
   Rounders::Rails.start!
 end
